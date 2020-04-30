@@ -13,6 +13,11 @@ namespace SimpleAPI.Test
             Assert.Equal("ISB", returnValue.Value);
         }
 
+        [Fact]
+        public void testAddition(){
+            var num = 1;
+            Assert.Equal(1, num);
+        }
 
         [Fact]
         public void Test1()
