@@ -14,14 +14,14 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Christophe", "Tran" };
+            return new string[] { "Christophe", "Tran", "STATCAN"};
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "Les Jackson";
+            return "ISB";
         }
 
         // POST api/values
