@@ -10,13 +10,7 @@ namespace SimpleAPI.Test
         [Fact]
         public void GetReturnsMyName(){
             var returnValue = controller.Get(1);
-            Assert.Equal("ISB", returnValue.Value);
-        }
-
-        [Fact]
-        public void testAddition(){
-            var num = 1;
-            Assert.Equal(1, num);
+            Assert.Equal("ISBB", returnValue.Value);
         }
 
         [Fact]
